@@ -285,7 +285,20 @@ em{
     color: #aaa;
     overflow: hidden;
 }
+.star-layout .star-gray, .star-layout .star-orange{
+    position: absolute;
+    left: 0;
+    top:-1px;
+    height: 23px;
+    overflow: hidden;
+}
 .star-layout i {
     margin-right: 2px;
     font-style: normal;
+}
+.start-layout .star-gray i:before{
+    color: #ddd;
+}
+.star-layout i:before{
+    content: '\e645';
 }

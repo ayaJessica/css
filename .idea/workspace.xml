@@ -36,8 +36,8 @@
       <file leaf-file-name="css_dist.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css_dist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="289" column="23" selection-start-line="289" selection-start-column="23" selection-end-line="289" selection-end-column="23" />
+            <state relative-caret-position="-7">
+              <caret line="292" column="21" selection-start-line="292" selection-start-column="21" selection-end-line="292" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="495" />
+    <option name="x" value="905" />
+    <option name="y" value="341" />
     <option name="width" value="1404" />
     <option name="height" value="535" />
   </component>
@@ -243,15 +243,15 @@
       <updated>1523270572530</updated>
       <workItem from="1523270573784" duration="6402000" />
       <workItem from="1523360507157" duration="3333000" />
-      <workItem from="1523414269262" duration="5998000" />
+      <workItem from="1523414269262" duration="6407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15733000" />
+    <option name="totallyTimeSpent" value="16142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="469" y="495" width="1404" height="535" extended-state="0" />
+    <frame x="905" y="341" width="1404" height="535" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21156661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -352,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css_dist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="289" column="23" selection-start-line="289" selection-start-column="23" selection-end-line="289" selection-end-column="23" />
+        <state relative-caret-position="-7">
+          <caret line="292" column="21" selection-start-line="292" selection-start-column="21" selection-end-line="292" selection-end-column="21" />
           <folding />
         </state>
       </provider>
