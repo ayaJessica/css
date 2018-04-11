@@ -302,3 +302,8 @@ em{
 .star-layout i:before{
     content: '\e645';
 }
+.star-layout .star-position{
+    display: block;
+    width:70px;
+    height:23px;
+}
