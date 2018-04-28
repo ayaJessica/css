@@ -605,3 +605,55 @@ em{
     transform: rotate(90deg);
     margin-bottom: 6px;
 }
+.scroll-layout-app{
+    position: relative;
+    width: auto;
+    margin-right: 17px;
+}
+.scroll-layout-app .layout-width{
+    margin-left:-17px;
+}
+.scroll-layout .layout-width{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+}
+.scroll-layout-app .item-list{
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack:start;
+    align-content: flex-start;
+    -webkit-box-pack:start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack:start;
+    justify-content: flex-start;
+    margin-left: 7px;
+}
+.scroll-layout-app .item-text, .scroll-layout-column .item-text, .tab-info {
+    -webkit-tap-highlight-color: transparent;
+}
+.scroll-layout-app .item-text{
+    margin-right:0;
+    padding-left: 10px;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow:0;
+    -ms-flex-position:0;
+    flex-grow:0;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative:1;
+    flex-shrink: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.scroll-layout-app:after {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    content: '';
+    background: #fff;
+    left: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 17px;
+}
