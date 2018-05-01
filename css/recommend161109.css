@@ -1,0 +1,202 @@
+.vr-recommend {
+  margin-bottom: 10px;
+  padding: 12px 17px;
+  background: #fff;
+}
+
+.recommend-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recommend-wrap .img-flex {
+  margin-bottom: 10px;
+}
+
+.recommend-wrap .img-layout {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.recommend-wrap.recommend-music .img-layout {
+  width: 18px;
+  height: 18px;
+}
+
+.recommend-wrap.recommend-aft .spread-txt h4 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.recommend-wrap.recommend-aft .spread-txt p {
+  font-size: 12px;
+  color: #aaa;
+  line-height: 20px;
+}
+
+.recommend-wrap.recommend-aft .btn-import {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding: 0 8px;
+  margin-left: 14px;
+  font-size: 12px;
+  height: 28px;
+  line-height: 26px;
+  border: 1px solid #27ba2d;
+  color: #279c28;
+  min-width: 66px;
+}
+
+.recommend-wrap.app-recommend h4 {
+  font-size: 16px;
+  color: #555;
+  line-height: 24px;
+}
+
+.recommend-wrap.app-recommend p {
+  font-size: 12px;
+  color: #aaa;
+  line-height: 19px;
+}
+
+.recommend-wrap .btn-import2 {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding: 0 8px;
+  margin-left: 14px;
+  font-size: 12px;
+  height: 28px;
+  line-height: 26px;
+  min-width: 66px;
+}
+
+.recommend-arrow .btn-import2 {
+  background-color: #70a2f2;
+  border: 1px solid #70a2f2;
+}
+
+.recommend-arrow em {
+  color: #5a91ee;
+}
+
+.spread-txt {
+  color: #555;
+  line-height: 23px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 40px;
+}
+
+.spread-txt span {
+  color: #666;
+}
+
+.spread-txt .open-app {
+  font-style: normal;
+  border: 1px solid #ffcfc4;
+  color: #ee4035;
+}
+
+.recommend-pop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.recommend-pop .recommend-del {
+  position: absolute;
+  width: 25px;
+  height: 16px;
+  top: -15px;
+  right: 0;
+  background: url(../images/rec_del.png) 0 0 no-repeat;
+  background-size: 25px auto;
+}
+
+.recommend-pop.recommend-trace {
+  background: -webkit-gradient(linear, left top, right top, from(#33a1ff), to(#3671e7));
+  background: -webkit-linear-gradient(left, #33a1ff, #3671e7);
+  background: linear-gradient(to right, #33a1ff, #3671e7);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.recommend-pop.recommend-trace .img-layout {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.recommend-pop.recommend-trace .img-layout img {
+  border-radius: 100%;
+}
+
+.recommend-pop.recommend-trace .spread-txt {
+  color: #fff;
+}
+
+.recommend-pop.recommend-trace .spread-txt h4 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.recommend-pop.recommend-trace .spread-txt p {
+  opacity: .5;
+}
+
+.recommend-pop.recommend-trace .btn-import2 {
+  background-color: #fff;
+  color: #0055cb;
+  border: 1px solid #fff;
+}
+
+.ft-app-recommend {
+  position: fixed;
+  z-index: 110;
+  padding: 0 20px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  bottom: 15px;
+  left: 50%;
+  border-radius: 38px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff5c4b), to(#f92740));
+  background: -webkit-linear-gradient(left, #ff5c4b, #f92740);
+  background: linear-gradient(to right, #ff5c4b, #f92740);
+  -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 320px) {
+  .vr-recommend .recommend-wrap.recommend-aft .spread-txt h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

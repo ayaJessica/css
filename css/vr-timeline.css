@@ -1,0 +1,116 @@
+.vr-timeline .news-text p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.vr-timeline li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vr-timeline .news-tips {
+  width: 72px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding: 4px 0;
+  line-height: 23px;
+}
+
+.vr-timeline .news-text {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+  padding: 4px 0 4px 21px;
+}
+
+.vr-timeline .news-text a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 23px;
+}
+
+.vr-timeline .news-text p {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 40px;
+}
+
+.vr-timeline .news-text p + .news-time {
+  margin-left: 10px;
+}
+
+.vr-timeline .news-text .front-time {
+  width: 42px;
+  font-size: 12px;
+  font-style: normal;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  color: #aaa;
+  display: block;
+}
+
+.vr-timeline .news-text .news-time {
+  display: block;
+  font-style: normal;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.vr-timeline .news-text:before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  overflow: hidden;
+  top: 11px;
+  left: 0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #ddd;
+  z-index: 2;
+}
+
+.vr-timeline .news-text:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  height: 100%;
+  width: 1px;
+  background-color: #eee;
+  z-index: 1;
+}
+
+.vr-timeline li:first-child .news-text:after {
+  top: 11px;
+}
+
+.vr-timeline li:last-child .news-text:after {
+  bottom: 11px;
+  top: auto;
+}
+
+.vr-timeline li:only-child .news-text:after {
+  content: normal;
+}
+
+.vr-timeline .cur .news-text:before {
+  background-color: #fff;
+  border: 1px solid #bbb;
+}

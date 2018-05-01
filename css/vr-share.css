@@ -1,0 +1,152 @@
+.vrResult .vr-pop-box, .vrResult .vr-pop-ups {
+    position: relative;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+.vr-mask-bg {
+  position: absolute;
+  z-index: 500;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  bottom: 0;
+}
+
+.vr-share {
+  background-color: #fafafa;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.vr-share ul {
+  overflow: hidden;
+  zoom: 1;
+  margin: 0 10px;
+  padding-bottom: 25px;
+}
+
+.vr-share li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px 0 0;
+  margin-bottom: -5px;
+}
+
+.vr-share ul a {
+  display: block;
+  line-height: 22px;
+  color: #333;
+  padding-top: 5px;
+}
+
+.vr-share ul a span {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.share-wx-ico span {
+  background-color: #0fc71a;
+}
+
+.share-py-ico span {
+  background-color: #d9d9d9;
+}
+
+.share-vblong-ico span {
+  background-color: #ffde65;
+}
+
+.share-qq-ico span {
+  background-color: #47a1ed;
+}
+
+.share-tb-ico span {
+  background-color: #0086ff;
+}
+
+.share-txwb-ico span {
+  background-color: #44a4e1;
+}
+
+.share-rr-ico span {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 43px;
+  height: 43px;
+}
+
+.share-dou-ico span {
+  background-color: #06bf12;
+}
+
+.vr-share span:before {
+  height: 30px;
+  content: '';
+  display: block;
+  margin: -15px auto 0;
+  position: relative;
+  top: 50%;
+  background: url(../images/share_ico.png) no-repeat;
+  background-size: 126px auto;
+}
+
+.vr-share .share-wx-ico span:before {
+  width: 33px;
+}
+
+.vr-share .share-py-ico span:before {
+  width: 30px;
+  background-position: -34px 0;
+}
+
+.vr-share .share-vblong-ico span:before {
+  width: 34px;
+  background-position: -65px 0;
+}
+
+.vr-share .share-qq-ico span:before {
+  width: 35px;
+  background-position: 0 -67px;
+  height: 33px;
+  margin-top: -16px;
+}
+
+.vr-share .share-tb-ico span:before {
+  width: 29px;
+  background-position: -67px -31px;
+}
+
+.vr-share .share-rr-ico span:before {
+  width: 38px;
+  background-position: 0 -34px;
+}
+
+.vr-share .share-dou-ico span:before {
+  width: 26px;
+  background-position: -38px -32px;
+}
+
+.vr-share .share-txwb-ico span:before {
+  width: 36px;
+  background-position: -40px -70px;
+}
+
+.vr-share .share-btn {
+  display: block;
+  font-size: 18px;
+  color: #ff5a34;
+  border-top: 1px solid #ddd;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}

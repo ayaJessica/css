@@ -1,0 +1,154 @@
+.vr-calendar {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.vr-calendar .calendar-top {
+  line-height: 40px;
+  margin: 0 11px;
+  overflow: hidden;
+  border-bottom: solid 1px #f1f1f1;
+  position: relative;
+  text-align: center;
+}
+
+.vr-calendar .calendar-top .turn-left,
+.vr-calendar .calendar-top .turn-right {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.vr-calendar .calendar-top .turn-left {
+  left: -11px;
+  padding-right: 5px;
+}
+
+.vr-calendar .calendar-top .turn-right {
+  right: -11px;
+  padding-left: 5px;
+}
+
+.vr-calendar .calendar-top .turn-left:after,
+.vr-calendar .calendar-top .turn-right:after {
+  font-family: 'iconfont' !important;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  content: '\e664';
+  color: #666;
+  display: block;
+}
+
+.vr-calendar .calendar-top span.turn-left:after,
+.vr-calendar .calendar-top span.turn-right:after {
+  color: #ddd;
+}
+
+.vr-calendar .calendar-top .turn-left:after {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.vr-calendar .calendar-top .turn-right:after {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.vr-calendar .calendar-top .select-box {
+  padding: 0 5px;
+  position: relative;
+  font-size: 16px;
+}
+
+.vr-calendar .calendar-top .select-box p:after {
+  border: 5px solid #036;
+  border-bottom: 0;
+  border-color: #666 transparent transparent transparent;
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  margin-left: 3px;
+}
+
+.vr-calendar .calendar-top .select-box input[type="month"] {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+  height: 40px;
+  width: 104px;
+  border: 0;
+  opacity: 0;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  text-align: center;
+  margin-left: -52px;
+}
+
+.vr-calendar .show-date .select-box p:after {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.vr-calendar .calendar-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.vr-calendar .calendar-table th {
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.vr-calendar .calendar-table td {
+  line-height: 45px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.vr-calendar .calendar-table td span {
+  display: block;
+  color: #bbb;
+}
+
+.vr-calendar .calendar-table td span.today {
+  font-size: 14px;
+  color: #555;
+}
+
+.vr-calendar .calendar-table td a {
+  display: block;
+  color: #555;
+  height: 45px;
+}
+
+.vr-calendar .calendar-table td .select {
+  background: #fff0ec !important;
+  color: #555 !important;
+}
+
+.vr-calendar .calendar-table td .select em {
+  color: #555 !important;
+}
+
+.vr-calendar .calendar-table td .mark em {
+  font-size: 14px;
+  display: block;
+  color: #fff;
+}
+
+.vr-calendar .calendar-table td .mark {
+  line-height: 18px;
+  color: #fff;
+  background: #ff6949;
+  height: 41px;
+  padding-top: 4px;
+}

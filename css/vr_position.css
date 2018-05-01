@@ -1,0 +1,83 @@
+.vr-position-box .vr-position .position-txt p:before {
+  font-family: 'iconfont' !important;
+}
+
+.vr-position-box .vr-position {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vr-position-box .vr-position .position-txt {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 40px;
+  overflow: hidden;
+}
+
+.vr-position-box .vr-position .position-txt p {
+  height: 23px;
+  line-height: 23px;
+}
+
+.vr-position-box .vr-position .position-txt p:before {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-right: 3px;
+}
+
+.vr-position-box .vr-position .icon-locate p:before {
+  content: '\e60c';
+}
+
+.vr-position-box .vr-position .icon-address p:before {
+  content: '\e60b';
+}
+
+.vr-position-box .vr-position .icon-failure p:before {
+  content: '\e60a';
+}
+
+.vr-position-box .vr-position a {
+  display: block;
+  color: #000;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.vr-position-box .vr-position .position-btn {
+  margin-left: 10px;
+  line-height: 23px;
+}
+
+.vr-position-box .vr-position .position-btn:after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border: 4px solid #000;
+  border-color: transparent transparent #333;
+  border-top: 0;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-left: 4px;
+}
+
+.vr-position-box .vr-position .position-btn.down-arrow:after {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.vr-position-box .box-input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
