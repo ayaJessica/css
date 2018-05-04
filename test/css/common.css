@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6, ul, li, body, dl, ol, dt, dd, td, img, th, p, form, div,
     margin: 0;
     padding: 0;
 }
+.hint li a, .land-hot li a, .per-hint a, .vrResult .vr-tit .vr-tove, .box-translation .citeurl, .sel-text, .tab-base li span, .sub-tab li span, .box-select .select-text, .box-select .option-list li, .box-input .option-list li, .ellipsis, .text-layout h4, .article-layout .article-title, .article-block .article-title, .mes-text, .star-flex, .word-list-common .btn-import, .suggestion .sugg-img-flex .lottery-test, .vr-wiki171115 .more-box-new .part-left, .vr-zhihu160815 .mold-div, .vr-official .item-title, .vr-official .link-base a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     font-weight: normal;
@@ -70,4 +75,41 @@ a em, em {
     display: inline-block;
     position: relative;
     top: -2px;
+}
+.img-layout{
+    width : 26%;
+    float: left;
+    margin-right: 12px;
+}
+.img-layout i {
+    position: relative;
+    width : 100%;
+    padding-bottom: 100%;
+    height : 0;
+    display: block;
+}
+.img-layout i img{
+    width: 100%;
+    height :100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.text-layout h4 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 3px;
+}
+.text-layout h4.clamp2 {
+    white-space: normal;
+}
+.clamp2{
+    display: -webkit-box;
+   text-overflow: ellipsis;
+    -webkit-line-clamp : 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
