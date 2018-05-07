@@ -330,15 +330,74 @@ a em, em {
     width: 100%;
     padding-left: 17px;
     padding-right: 17px;
+    margin-bottom: -20px;
 }
 .scroll-layout-alone .item-text{
     margin-right: 10px;
     float: left;
-    width: 23%;
+    width: 18%;
     overflow: hidden;
     display: block;
 }
 .negative, .page-fixed .vrResult, .bottom-tab {
     margin-left: -17px;
     margin-right: -17px;
+}
+.scroll-layout-alone .item-check{
+    background: #fff;
+    color: #555;
+    position: absolute;
+    left : 0;
+    top : 0;
+    right : 0;
+    bottom: 0;
+    text-align: center;
+}
+.scroll-layout-alone .item-check i{
+    display: block;
+    white-space: nowrap;
+    position: absolute;
+    font-style: normal;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.scroll-layout-alone  .item-check i:before {
+    content: '\e664';
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid 1px #555;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-bottom: 6px;
+}
+.scroll-layout-alone  .item-list{
+    margin-top: 20px;
+    transform: translateY(-20px);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.scroll-layout-alone  .item-title{
+    line-height: 23px;
+    max-height: 46px;
+    margin-right: 5px;
+    color: #000;
+    overflow: hidden;
+}
+.scroll-layout-alone  .item-time{
+    display: block;
+    color: #aaa;
+    line-height: 23px;
+    margin-right: 5px;
+}
+.img-height + .item-title {
+    margin-top: 5px;
+}
+.box-scrollbar {
+    overflow: hidden;
 }
